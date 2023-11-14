@@ -20,3 +20,12 @@ assertEqual(result[1], "Labs");
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words);
 assertEqual(words.length, 3);
+
+
+const j = [];
+tail(j);
+assertEqual(j.length, 3);
+
+const i = [4];
+tail(i);
+assertEqual(i.length, 3);
