@@ -22,7 +22,6 @@ const assertArraysEqual = function(actual, expected) {
 
 const middle = function(array) {
 // Arrays with 0-2 elements, return []
-  for (let i = 0; i < array.length; i++) {
     if (array.length <= 2) {
       return [];
 // Even Numbers return two elements int he middle
@@ -35,7 +34,6 @@ const middle = function(array) {
       middleArray.push(array[middleIndex])
       return middleArray
     }
-  }
 };
 
 //TEST CASES
@@ -50,5 +48,5 @@ assertArraysEqual(middle([1]), []); // => []
 assertArraysEqual(middle([1, 2]), []); // => []
 assertArraysEqual(middle([1, 2, 3]), [2]); // => [2]
 assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]); // => [3]
-assertArraysEqual(middle([1, 2, 3, 4], [2 , 3])); // => [2, 3]
+assertArraysEqual(middle([1, 2, 3, 4]), [2 , 3]); // => [2, 3]
 assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]); // => [3, 4]
