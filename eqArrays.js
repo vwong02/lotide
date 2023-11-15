@@ -9,12 +9,11 @@ const assertEqual = function(actual, expected) {
 
 const eqArrays = function(x, y) {
   for (let i = 0; i < x.length; i++) {
-    if (x[i] === y[i]) {
-      return true
-    } else {
+    if (x[i] !== y[i]) {
       return false
-    }
-  }
+      }
+    } 
+    return true
   }
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true) // => true
