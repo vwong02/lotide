@@ -31,7 +31,7 @@ const without = function (source, itemsToRemove){
     for (let j = 0; j < itemsToRemove.length; j++) {
       if (source[i] === itemsToRemove[j]) {
         shouldRemove = true;
-        break; // add break to break out of loop once a match is found ==> AI Feedback
+        break; // add break to break out of loop once a match is found ==> AI Feedback after submission
       }
     }
 
