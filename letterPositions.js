@@ -2,7 +2,7 @@ const letterPositions = function(sentence) {
   const results = {};
   for (let i = 0; i < sentence.length; i++) {
     
-    const char = sentence[i]
+   let char = sentence[i]
 
     if (char !== ' ') {
       if (results[char]) {
@@ -14,8 +14,6 @@ const letterPositions = function(sentence) {
 }
   return results;
 };
-
-// console.log(letterPositions("lighthouse in the house"))
 
 const eqArrays = function(x, y) {
   if (x.length !== y.length) {
