@@ -6,12 +6,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-
-// allItems: an array of strings that we need to look through
-// itemsToCount: an object specifying what to count
-// Our function countOnly needs to return a proper report on all the strings found in the input array, and their respective counts. Therefore it will need to return an object that can represent the stats.
-
-
 const countOnly = function(allItems, itemsToCount) {
   const result = {};
   for (const item of allItems) {
