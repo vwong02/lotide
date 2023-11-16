@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
 
 const countLetters = function(sentence) {
   const obj = {};
-  for(char of sentence){
+  for(const char of sentence){
     if (char !== ' ')
       if(obj[char]){
         obj[char] += 1;
@@ -20,4 +20,6 @@ const countLetters = function(sentence) {
   return obj;
 }
 
-console.log(countLetters("hello, my name is Victoria"));
+const result = countLetters('hello, my name is Victoria');
+assertEqual(result['h'], 1);
+assertEqual(result['e'], 2);
