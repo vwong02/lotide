@@ -14,8 +14,8 @@ assertEqual(words.length, 3);
 
 const j = [];
 tail(j);
-assertEqual(j.length, 0);
+assertEqual(j.length, 4);
 
 const i = [4];
 tail(i);
-assertEqual(i.length, 1);
+assertEqual(i.length, 2);
