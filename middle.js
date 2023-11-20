@@ -1,5 +1,3 @@
-const eqArrays = require('./eqArrays');
-
 const middle = function(array) {
   // Arrays with 0-2 elements, return []
   if (array.length <= 2) {
@@ -9,10 +7,7 @@ const middle = function(array) {
     return array.slice(array.length / 2 - 1, array.length / 2 + 1);
   } else {
     // Odd Numbers return single middle element
-    let middleArray = [];
-    let middleIndex = Math.floor(array.length / 2);
-    middleArray.push(array[middleIndex]);
-    return middleArray;
+    return [array[Math.floor(array.length / 2)]];
   }
 };
 
