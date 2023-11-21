@@ -17,10 +17,7 @@ const takeUntil = require('./takeUntil');
 const without = require('./without');
 
 module.exports = {
-  
-  head,
-  tail,
-  middle,
+
   assertArraysEqual,
   assertEqual,
   eqArrays,
@@ -30,8 +27,11 @@ module.exports = {
   eqObjects,
   findKey,
   findKeyByValue,
+  head,
   letterPositions,
   map,
+  middle,
+  tail,
   takeUntil,
   without
 
