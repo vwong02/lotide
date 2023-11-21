@@ -50,14 +50,5 @@ const boolean = [true, true, false];
 const results3 = map(boolean, boolean => boolean[0]);
 assertArraysEqual(results3, [, , ,]); //needs to have comman in between to separate the commas from the results
 
-/* 
-AI Feedback
-
-Instead of trying to access the first element of a boolean, you could try a different operation in your callback function. For example, you could negate the boolean values:
-
-const boolean = [true, true, false];
-const results3 = map(boolean, boolean => !boolean);
-assertArraysEqual(results3, [false, false, true]);
-
- */
+module.exports = map;
 
