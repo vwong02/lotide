@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@vwong02/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini-clone of the lodash JavaScript library to practice creating various types of functions with arrays and objects for Lighthouse Labs Web Development Bootamp. ",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/vwong02/lotide.git"
   },
-  "author": "",
+  "author": "Victoria Wong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vwong02/lotide/issues"
